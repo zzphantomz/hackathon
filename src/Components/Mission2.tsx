@@ -1,3 +1,4 @@
+/* @ts-ignore */
 import * as THREE from 'three'
 import React, {useRef, useState} from 'react'
 import {ThreeElements, useFrame, useLoader} from '@react-three/fiber'
