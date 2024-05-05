@@ -16,7 +16,7 @@ function Cloud(props: ThreeElements['mesh']) {
                 ref.current.position.x = -8
             }
             else {
-                ref.current.position.x += delta* (props?.speed||1)
+                ref.current.position.x += delta* Math.random()
             }
         }
     })
