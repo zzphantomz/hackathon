@@ -15,7 +15,7 @@ function Snow(props: ThreeElements['mesh']) {
                 ref.current.position.y = 3
             }
             else {
-                ref.current.position.y -= delta* (props?.speed||1)
+                ref.current.position.y -= delta* Math.random()
             }
         }
     })
